@@ -1,0 +1,51 @@
+body::before {
+  content: "";
+  position: fixed; /* Fijo para que no se mueva al hacer scroll */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('logo-flecheros.png');
+  background-repeat: no-repeat;
+  background-size: 300px 300px; /* Ajusta tamaño aquí */
+  opacity: 0.08; /* Transparencia suave */
+  z-index: -1; /* Debajo de todo */
+  width: 300px;
+  height: 300px;
+  pointer-events: none; /* No afecta clicks */
+}
+
+ {
+  font-family: Arial Black, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #8B0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
